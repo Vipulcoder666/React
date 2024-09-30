@@ -1,0 +1,16 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+nav{
+  background-color: red;
+}
+
+/* .elements{
+  display: flex;
+} */
+
+ul a{
+  background-color: aqua;
+}
