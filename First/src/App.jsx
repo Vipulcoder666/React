@@ -1,6 +1,6 @@
 import React from "react";
 import linkedIn from "./Assets/linkedIn.jpeg";
-import Vipul from "./Assets/Vipul.jpg";
+import vipul from "./Assets/vipul.jpg";
 import Parking from "./Assets/Parking.avif";
 import Travel from "./Assets/Travel.avif";
 import Portfolio from "./Assets/Portfolio.avif";
@@ -39,7 +39,7 @@ function App() {
         <div>
           <h1 className=" mt-36 text-4xl font-bold flex items-center justify-center">About Me</h1>
           <div flex flex-col md:flex-row items-center md:space-x-12>
-            <img src={Vipul} alt="" className="h-60 w-56 my-12 mx-20"/>
+            <img src={vipul} alt="" className="h-60 w-56 my-12 mx-20"/>
             <div className="flex-1">
               <p>I am a passionate frontend developer with a focus on modern and responsive UI. with a strong foundation in frontend technologies, proficient in JavaScript and React.js.</p>
             </div>
