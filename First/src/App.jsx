@@ -77,21 +77,21 @@ function App() {
             <div class=" bg-gray-900 h-80 w-72 rounded-2xl ">
               <h1 className=" mt-2 text-2xl font-bold bg-gradient-to-r  from-pink-500 to-blue-500 bg-clip-text text-transparent">Parking Management System</h1>
               
-              <p>I have created a Parking Management System as my Mini Project, It is constructed on C programming.</p>
+              <p className="mt-12 text-yellow-100">I have created a Parking Management System as my Mini Project, It is constructed on C programming.</p>
             </div>
 
             {/* Travel Agency Website */}
             <div class=" bg-gray-900 h-80 w-72 rounded-2xl">
               <h1 className=" mt-2 text-2xl font-bold bg-gradient-to-r  from-pink-500 to-blue-500 bg-clip-text text-transparent">Travel Agency Website</h1>
 
-              <p>I have created a travel agency website which is based on HTML,CSS and JavaScript. </p>
+              <p className="mt-20 text-yellow-100">I have created a travel agency website which is based on HTML,CSS and JavaScript. </p>
             </div>
 
             {/* Personal Portfolio */}
             <div class=" bg-gray-900 h-80 w-72 rounded-2xl">
               <h1 className=" mt-2 text-2xl font-bold bg-gradient-to-r  from-pink-500 to-blue-500 bg-clip-text text-transparent">Personal Portfolio</h1>
 
-              <p>I have created a Portfolio website which is based on HTML,CSS and JavaScript</p>
+              <p className="mt-20 text-yellow-100">I have created a Portfolio website which is based on HTML,CSS and JavaScript</p>
             </div>
           </div>
         </div>
