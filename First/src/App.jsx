@@ -36,7 +36,7 @@ function App() {
       </div>
 
         <div>
-          <h1 className="text-4xl font-bold flex items-center justify-center">About Me</h1>
+          <h1 className=" mt-36 text-4xl font-bold flex items-center justify-center">About Me</h1>
           <div flex flex-col md:flex-row items-center md:space-x-12>
             <img src={Vipul} alt="" className="h-60 w-56 my-12 mx-20"/>
             <div className="flex-1">
@@ -45,12 +45,54 @@ function App() {
           </div>
         </div>
 
-        <div class="flex-row bg-red-600 ">
-          <h1 className="text-4xl font-bold flex items-center justify-center my-7">My Education</h1>
+        {/* My Education */}
+        <div class="flex-row ">
+          <h1 className=" mt-40 text-4xl font-bold flex items-center justify-center my-7">My Education</h1>
           <div className="inline-grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mx-12 md:mx-28 lg:mx-40  gap-8  mb-10 ">
-            <div class=" bg-black h-80 w-72 rounded-2xl ">BTech</div>
-            <div class=" bg-black h-80 w-72 rounded-2xl">Intermediate</div>
-            <div class=" bg-black h-80 w-72 rounded-2xl">Highschool</div>
+            {/* BTech */}
+            <div class=" bg-gray-900 h-80 w-72 rounded-2xl ">
+              <h1 className="mt-2 text-2xl font-bold text-2xl bg-gradient-to-r  from-pink-500 to-blue-500 bg-clip-text text-transparent ">Bachelor of Technology</h1>
+              <p className="mt-12 text-yellow-100">Currently I am persuing B.Tech (CSE) from Maharana Institute Of Professional Studies, Kanpur, Batch (2022-26).</p>
+            </div>
+            {/* Intermediate */}
+            <div class="bg-gray-900 h-80 w-72 rounded-2xl">
+              <h1 className="mt-2 text-2xl font-bold text-2xl bg-gradient-to-r  from-pink-500 to-blue-500 bg-clip-text text-transparent">Intermediate</h1>
+
+              <p className="mt-12 text-yellow-100">I did my Intermediate from UP board english medium with 69 percentage.</p>
+            </div>
+            {/* Highschool */}
+            <div class=" bg-gray-900 h-80 w-72 rounded-2xl">
+              <h1 className=" mt-2 text-2xl font-bold bg-gradient-to-r  from-pink-500 to-blue-500 bg-clip-text text-transparent">Highschool</h1>
+
+              <p className="mt-12 text-yellow-100">I did my Highschool from CBSE board with 72.2 percentage.</p>
+            </div>
+          </div>
+        </div>
+
+        {/* My Projects */}
+        <div class="flex-row mt-40">
+          <h1 className="text-4xl font-bold flex items-center justify-center my-7">My Projects</h1>
+          <div className="inline-grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mx-12 md:mx-28 lg:mx-40  gap-8  mb-10 ">
+            {/* Parking Management System */}
+            <div class=" bg-gray-900 h-80 w-72 rounded-2xl ">
+              <h1 className=" mt-2 text-2xl font-bold bg-gradient-to-r  from-pink-500 to-blue-500 bg-clip-text text-transparent">Parking Management System</h1>
+              
+              <p>I have created a Parking Management System as my Mini Project, It is constructed on C programming.</p>
+            </div>
+
+            {/* Travel Agency Website */}
+            <div class=" bg-gray-900 h-80 w-72 rounded-2xl">
+              <h1 className=" mt-2 text-2xl font-bold bg-gradient-to-r  from-pink-500 to-blue-500 bg-clip-text text-transparent">Travel Agency Website</h1>
+
+              <p>I have created a travel agency website which is based on HTML,CSS and JavaScript. </p>
+            </div>
+
+            {/* Personal Portfolio */}
+            <div class=" bg-gray-900 h-80 w-72 rounded-2xl">
+              <h1 className=" mt-2 text-2xl font-bold bg-gradient-to-r  from-pink-500 to-blue-500 bg-clip-text text-transparent">Personal Portfolio</h1>
+
+              <p>I have created a Portfolio website which is based on HTML,CSS and JavaScript</p>
+            </div>
           </div>
         </div>
 
