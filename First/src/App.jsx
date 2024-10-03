@@ -45,6 +45,15 @@ function App() {
           </div>
         </div>
 
+        <div class="flex-row bg-red-600 ">
+          <h1 className="text-4xl font-bold flex items-center justify-center my-7">My Education</h1>
+          <div className="inline-grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mx-12 md:mx-28 lg:mx-40  gap-8  mb-10 ">
+            <div class=" bg-black h-80 w-72 rounded-2xl ">BTech</div>
+            <div class=" bg-black h-80 w-72 rounded-2xl">Intermediate</div>
+            <div class=" bg-black h-80 w-72 rounded-2xl">Highschool</div>
+          </div>
+        </div>
+
     </div>
   )
 }
