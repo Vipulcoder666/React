@@ -1,8 +1,9 @@
 import React from "react";
-import image from "./Assets/peter.jpg";
-import lap from "./Assets/lap.jpeg";
 import linkedIn from "./Assets/linkedIn.jpeg";
 import Vipul from "./Assets/Vipul.jpg";
+import Parking from "./Assets/Parking.avif";
+import Travel from "./Assets/Travel.avif";
+import Portfolio from "./Assets/Portfolio.avif";
 function App() {
 
   return (
@@ -74,24 +75,37 @@ function App() {
           <h1 className="text-4xl font-bold flex items-center justify-center my-7">My Projects</h1>
           <div className="inline-grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mx-12 md:mx-28 lg:mx-40  gap-8  mb-10 ">
             {/* Parking Management System */}
-            <div class=" bg-gray-900 h-80 w-72 rounded-2xl ">
-              <h1 className=" mt-2 text-2xl font-bold bg-gradient-to-r  from-pink-500 to-blue-500 bg-clip-text text-transparent">Parking Management System</h1>
+            <div class="bg-gray-900 h-96 w-72 rounded-2xl ">
+            <img src={Parking} alt="Parking" className="h-36 w-72 mx-auto"/>
+              <h1 className=" mt-2 mx-1 text-2xl font-bold bg-gradient-to-r  from-pink-500 to-blue-500 bg-clip-text text-transparent">Parking Management System</h1>
               
-              <p className="mt-12 text-yellow-100">I have created a Parking Management System as my Mini Project, It is constructed on C programming.</p>
+              <p className="mt-2 mx-2 text-yellow-100">I have created a Parking Management System as my Mini Project, It is constructed on C programming.</p>
+
+              <button className="mx-20 my-5 bg-gradient-to-r from-yellow-800 to-pink-500 rounded-lg h-8 w-24">GitHub</button>
             </div>
 
             {/* Travel Agency Website */}
-            <div class=" bg-gray-900 h-80 w-72 rounded-2xl">
-              <h1 className=" mt-2 text-2xl font-bold bg-gradient-to-r  from-pink-500 to-blue-500 bg-clip-text text-transparent">Travel Agency Website</h1>
+            <div class=" bg-gray-900 h-96 w-72 rounded-2xl">
+            <img src={Travel} alt="" className="h-36 w-72 mx-auto"/>
+              <h1 className=" mt-2 mx-1 text-2xl font-bold bg-gradient-to-r  from-pink-500 to-blue-500 bg-clip-text text-transparent">Travel Agency Website</h1>
 
-              <p className="mt-20 text-yellow-100">I have created a travel agency website which is based on HTML,CSS and JavaScript. </p>
+              <p className="mt-10 mx-2 text-yellow-100">I have created a travel agency website which is based on HTML,CSS and JavaScript. </p>
+
+              <button className="mx-20 my-5 bg-gradient-to-r from-yellow-800 to-pink-500 rounded-lg h-8 w-24">
+              <a href="https://github.com/Vipulcoder666/TopperWorld/tree/main/Landing_Page/html"target="_blank">GitHub</a>
+              </button>
             </div>
 
-            {/* Personal Portfolio */}
-            <div class=" bg-gray-900 h-80 w-72 rounded-2xl">
-              <h1 className=" mt-2 text-2xl font-bold bg-gradient-to-r  from-pink-500 to-blue-500 bg-clip-text text-transparent">Personal Portfolio</h1>
+            
 
-              <p className="mt-20 text-yellow-100">I have created a Portfolio website which is based on HTML,CSS and JavaScript</p>
+            {/* Personal Portfolio */}
+            <div class=" bg-gray-900 h-96 w-72 rounded-2xl">
+            <img src={Portfolio} alt="" className="h-36 w-72 mx-auto"/>
+              <h1 className=" mt-2 mx-1 text-2xl font-bold bg-gradient-to-r  from-pink-500 to-blue-500 bg-clip-text text-transparent">Personal Portfolio</h1>
+
+              <p className="mt-10 mx-2 text-yellow-100">I have created a Portfolio website which is based on HTML,CSS and JavaScript.</p>
+
+              <button className="mx-20 my-5 bg-gradient-to-r from-yellow-800 to-pink-500 rounded-lg h-8 w-24">GitHub</button>
             </div>
           </div>
         </div>
