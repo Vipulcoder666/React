@@ -52,12 +52,12 @@ function App() {
           <div className="inline-grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mx-12 md:mx-28 lg:mx-40  gap-8  mb-10 ">
             {/* BTech */}
             <div class=" bg-gray-900 h-80 w-72 rounded-2xl ">
-              <h1 className="mt-2 text-2xl font-bold text-2xl bg-gradient-to-r  from-pink-500 to-blue-500 bg-clip-text text-transparent ">Bachelor of Technology</h1>
+              <h1 className="mt-2 text-2xl font-bold  bg-gradient-to-r  from-pink-500 to-blue-500 bg-clip-text text-transparent ">Bachelor of Technology</h1>
               <p className="mt-12 text-yellow-100">Currently I am persuing B.Tech (CSE) from Maharana Institute Of Professional Studies, Kanpur, Batch (2022-26).</p>
             </div>
             {/* Intermediate */}
             <div class="bg-gray-900 h-80 w-72 rounded-2xl">
-              <h1 className="mt-2 text-2xl font-bold text-2xl bg-gradient-to-r  from-pink-500 to-blue-500 bg-clip-text text-transparent">Intermediate</h1>
+              <h1 className="mt-2 text-2xl font-bold  bg-gradient-to-r  from-pink-500 to-blue-500 bg-clip-text text-transparent">Intermediate</h1>
 
               <p className="mt-12 text-yellow-100">I did my Intermediate from UP board english medium with 69 percentage.</p>
             </div>
