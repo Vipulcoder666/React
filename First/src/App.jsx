@@ -4,6 +4,7 @@ import vipul from "./Assets/vipul.jpg";
 import Parking from "./Assets/Parking.avif";
 import Travel from "./Assets/Travel.avif";
 import Portfolio from "./Assets/Portfolio.avif";
+
 function App() {
 
   return (
@@ -11,10 +12,10 @@ function App() {
 
       <nav className="bg-gradient-to-l from-pink-500 to-blue-500 text-white h-12 flex items-center justify-between px-10">
         <div class="font-bold text-3xl hidden md:inline">Vipul</div>
-        <div className="space-x-6">
-          <a href="#">Home</a>
-          <a href="#">About us</a>
-          <a href="#">Contact</a>
+        <div className="space-x-6 ">
+          <a href="#" className="hover:text-amber-950">Home</a>
+          <a href="#" className="hover:text-amber-950">Contact</a>
+          <a href="#" className="hover:text-amber-950">About us</a>
         </div>
       </nav>
 
@@ -108,6 +109,37 @@ function App() {
               <button className="mx-20 my-5 bg-gradient-to-r from-yellow-800 to-pink-500 rounded-lg h-8 w-24">GitHub</button>
             </div>
           </div>
+        </div>
+
+        {/* Last Page */}
+        <div class="flex-row mt-40">
+          <h1 className="text-4xl font-bold flex items-center justify-center my-7">Contact Me</h1>
+        
+        <div className="flex flex-col md:flex-row items-center md:space-x-12">
+          <div>
+            <h1 className=" mx-32 text-xl text-green-400">Let's talk</h1>
+            <p className="mx-32 ">I'm open to talk about Front-end developement.</p>
+          </div>
+
+          <div>
+            <form className="space-y-4 grid ">
+              <div>
+                <label htmlFor="name">Your name:</label>
+                <input type="text" className="w-full p-2 rounded bg-gray-800 border border-gray-600 focus:outline-none focus:border-green-400" placeholder="enter your name"/>
+              </div>
+
+              <div>
+                <label htmlFor="email" className="block mb-2">Email:</label>
+                <input type="text" className="w-full p-2 rounded bg-gray-800 border border-gray-600 focus:outline-none focus:border-green-400" placeholder="enter your email"/>
+              </div>
+
+              <div>
+                <label htmlFor="message" className="block mb-2">Message: </label>
+                <textarea type="text" className="w-full p-2 rounded bg-gray-800 border border-gray-600 focus:outline-none focus:border-green-400" placeholder="enter your message"/>
+              </div>
+            </form>
+          </div>
+        </div>
         </div>
 
     </div>
