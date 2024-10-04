@@ -82,7 +82,9 @@ function App() {
               
               <p className="mt-2 mx-2 text-yellow-100">I have created a Parking Management System as my Mini Project, It is constructed on C programming.</p>
 
-              <button className="mx-20 my-5 bg-gradient-to-r from-yellow-800 to-pink-500 rounded-lg h-8 w-24">GitHub</button>
+              <button className="mx-20 my-5 bg-gradient-to-r from-yellow-800 to-pink-500 rounded-lg h-8 w-24">
+                <a href="https://github.com/Vipulcoder666/Projects" target="_blank">GitHub</a>
+              </button>
             </div>
 
             {/* Travel Agency Website */}
@@ -106,7 +108,9 @@ function App() {
 
               <p className="mt-10 mx-2 text-yellow-100">I have created a Portfolio website which is based on HTML,CSS and JavaScript.</p>
 
-              <button className="mx-20 my-5 bg-gradient-to-r from-yellow-800 to-pink-500 rounded-lg h-8 w-24">GitHub</button>
+              <button className="mx-20 my-5 bg-gradient-to-r from-yellow-800 to-pink-500 rounded-lg h-8 w-24">
+                <a href="https://github.com/Vipulcoder666/React/tree/main/First"target="_blank">GitHUb</a>
+              </button>
             </div>
           </div>
         </div>
