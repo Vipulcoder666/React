@@ -38,19 +38,10 @@ function App() {
         </div>
       </div>
 
-        {/* <div>
-          <h1 className=" mt-36 text-4xl font-bold flex items-center justify-center">About Me</h1>
-          <div flex flex-col md:flex-row items-center md:space-x-12>
-            <img src={vipul} alt="" className="h-60 w-56 my-12 mx-20"/>
-            <div className="flex-1">
-              <p>I am a passionate frontend developer with a focus on modern and responsive UI. with a strong foundation in frontend technologies, proficient in JavaScript and React.js.</p>
-            </div>
-          </div>
-        </div> */}
-        <div className="flex flex-col items-center justify-center md:flex-row gap-10 w-full p-10">
+        {/* <div className="flex flex-col items-center justify-center md:flex-row gap-10 w-full p-10">
           <div><img src={vipul} alt="" className="h-60 w-56 my-12 mx-20"/></div>
           <div className="w-96"><p className="text-justify">I am a passionate frontend developer with a focus on modern and responsive UI. with a strong foundation in frontend technologies, proficient in JavaScript and React.js.</p></div>
-        </div>
+        </div> */}
 
         {/* My Education */}
         <div class="flex-row ">
@@ -131,7 +122,7 @@ function App() {
             <br />
             
             {/* <FaPhone className="mx-32 my-4"/> */}
-            <div className="mx-32 flex flex-row gap-5">
+            {/* <div className="mx-32 flex flex-row gap-5">
               <BiEnvelope/>
               <a href="mailto:shrivastav.vipul252@gmail.com">shrivastav.vipul252@gmail.com</a>
             </div>
@@ -139,7 +130,7 @@ function App() {
             <div className="mx-32 flex flex-row gap-5">
               <FaPhone/>
               <a href="#">7897516265</a>
-            </div>
+            </div> */}
           </div>
 
           <div>
