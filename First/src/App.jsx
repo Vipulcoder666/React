@@ -24,7 +24,7 @@ function App() {
           <img src={linkedIn} alt="Vipul" className="sm:h-40 w-40 md:h-50 w-50 rounded-full" />
         </div>
       
-        <h1 className="text-3xl font-bold flex items-center justify-center">I'm Vipul Shrivastav, Web Developer</h1>
+        <h1 className="text-2xl font-bold flex items-center justify-center">I'm Vipul Shrivastav, Web Developer</h1>
 
         <p className="flex my-2 items-center justify-center text-2xl">Empowering ideas through code</p>
 
