@@ -4,8 +4,8 @@ import vipul from "./Assets/vipul.jpg";
 import Parking from "./Assets/Parking.avif";
 import Travel from "./Assets/Travel.avif";
 import Portfolio from "./Assets/Portfolio.avif";
-import { BiEnvelope } from "react-icons/bi";
-import { Fa6, FaPhone } from "react-icons/fa6";
+// import { BiEnvelope } from "react-icons/bi";
+// import { Fa6, FaPhone } from "react-icons/fa6";
 function App() {
 
   return (
@@ -38,10 +38,10 @@ function App() {
         </div>
       </div>
 
-        {/* <div className="flex flex-col items-center justify-center md:flex-row gap-10 w-full p-10">
+        <div className="flex flex-col items-center justify-center md:flex-row gap-10 w-full p-10">
           <div><img src={vipul} alt="" className="h-60 w-56 my-12 mx-20"/></div>
           <div className="w-96"><p className="text-justify">I am a passionate frontend developer with a focus on modern and responsive UI. with a strong foundation in frontend technologies, proficient in JavaScript and React.js.</p></div>
-        </div> */}
+        </div>
 
         {/* My Education */}
         <div class="flex-row ">
