@@ -39,7 +39,7 @@ function App() {
       </div>
 
         <div className="flex flex-col items-center justify-center md:flex-row gap-10 w-full p-10">
-          <div><img src={vipul} alt="" className="h-60 w-56 my-12 mx-20"/></div>
+          <div><img src={vipul} alt="" className="h-60 w-56 my-12 md:mx-20"/></div>
           <div className="w-96"><p className="text-justify">I am a passionate frontend developer with a focus on modern and responsive UI. with a strong foundation in frontend technologies, proficient in JavaScript and React.js.</p></div>
         </div>
 
