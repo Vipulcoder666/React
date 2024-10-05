@@ -76,9 +76,9 @@ function App() {
             <img src={Parking} alt="Parking" className="h-36 w-72 mx-auto"/>
               <h1 className=" mt-2 mx-1 text-2xl font-bold bg-gradient-to-r  from-pink-500 to-blue-500 bg-clip-text text-transparent">Parking Management System</h1>
               
-              <p className="mt-2 mx-2 text-yellow-100">I have created a Parking Management System as my Mini Project, It is constructed on C programming.</p>
+              <p className="mt-0.5 mx-2 text-yellow-100">I have created a Parking Management System as my Mini Project, It is constructed on C programming.</p>
 
-              <button className="mx-20 my-5 bg-gradient-to-r from-yellow-800 to-pink-500 rounded-lg h-8 w-24">
+              <button className="mx-20 my-1 bg-gradient-to-r from-yellow-800 to-pink-500 rounded-lg h-8 w-24">
                 <a href="https://github.com/Vipulcoder666/Projects" target="_blank">GitHub</a>
               </button>
             </div>
@@ -88,9 +88,9 @@ function App() {
             <img src={Travel} alt="" className="h-36 w-72 mx-auto"/>
               <h1 className=" mt-2 mx-1 text-2xl font-bold bg-gradient-to-r  from-pink-500 to-blue-500 bg-clip-text text-transparent">Travel Agency Website</h1>
 
-              <p className="mt-10 mx-2 text-yellow-100">I have created a travel agency website which is based on HTML,CSS and JavaScript. </p>
+              <p className="mt-3 mx-2  text-yellow-100">I have created a travel agency website which is based on HTML,CSS and JavaScript. </p>
 
-              <button className="mx-20 my-5 bg-gradient-to-r from-yellow-800 to-pink-500 rounded-lg h-8 w-24">
+              <button className="mx-20 my-3 bg-gradient-to-r from-yellow-800 to-pink-500 rounded-lg h-8 w-24">
               <a href="https://github.com/Vipulcoder666/TopperWorld/tree/main/Landing_Page/html"target="_blank">GitHub</a>
               </button>
             </div>
@@ -124,7 +124,7 @@ function App() {
             {/* <FaPhone className="mx-32 my-4"/> */}
             <div className="ml-24 flex flex-row gap-5">
               <BiEnvelope/>
-              <a href="mailto:shrivastav.vipul252@gmail.com">Email</a>
+              <a href="mailto:shrivastav.vipul252@gmail.com"></a>
             </div>
 
             <div className="ml-24 flex flex-row gap-5">
@@ -149,6 +149,7 @@ function App() {
                 <label htmlFor="message" className="block mb-2">Message: </label>
                 <textarea type="text" className="w-full p-2 rounded bg-gray-800 border border-gray-600 focus:outline-none focus:border-green-400" placeholder="enter your message"/>
               </div>
+              <button className='bg-gradient-to-r from-green-400 to-blue-500 text-white  md:inline transform transition-transform duration-300 hover:scale-105 px-8 py-2 rounded-full'>Send</button>
             </form>
           </div>
         </div>
