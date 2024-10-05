@@ -122,12 +122,12 @@ function App() {
             <br />
             
             {/* <FaPhone className="mx-32 my-4"/> */}
-            <div className="mx-32 flex flex-row gap-5">
+            <div className="ml-24 flex flex-row gap-5">
               <BiEnvelope/>
-              <a href="mailto:shrivastav.vipul252@gmail.com">shrivastav.vipul252@gmail.com</a>
+              <a href="mailto:shrivastav.vipul252@gmail.com">Email</a>
             </div>
 
-            <div className="mx-32 flex flex-row gap-5">
+            <div className="ml-24 flex flex-row gap-5">
               <FaPhone/>
               <a href="#">7897516265</a>
             </div>
