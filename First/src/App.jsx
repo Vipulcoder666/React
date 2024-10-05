@@ -4,8 +4,8 @@ import vipul from "./Assets/vipul.jpg";
 import Parking from "./Assets/Parking.avif";
 import Travel from "./Assets/Travel.avif";
 import Portfolio from "./Assets/Portfolio.avif";
-// import { BiEnvelope } from "react-icons/bi";
-// import { Fa6, FaPhone } from "react-icons/fa6";
+import { BiEnvelope } from "react-icons/bi";
+import { Fa6, FaPhone } from "react-icons/fa6";
 function App() {
 
   return (
@@ -122,7 +122,7 @@ function App() {
             <br />
             
             {/* <FaPhone className="mx-32 my-4"/> */}
-            {/* <div className="mx-32 flex flex-row gap-5">
+            <div className="mx-32 flex flex-row gap-5">
               <BiEnvelope/>
               <a href="mailto:shrivastav.vipul252@gmail.com">shrivastav.vipul252@gmail.com</a>
             </div>
@@ -130,7 +130,7 @@ function App() {
             <div className="mx-32 flex flex-row gap-5">
               <FaPhone/>
               <a href="#">7897516265</a>
-            </div> */}
+            </div>
           </div>
 
           <div>
