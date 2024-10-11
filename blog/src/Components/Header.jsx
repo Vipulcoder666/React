@@ -1,15 +1,16 @@
 import React from 'react'
 import TCS from './../assets/TCS.png'
+import { IoLogoYoutube} from "react-icons/io5";
 function Header() {
   return (
-    <div className='w-28'>
-        <img src={TCS}/>
-        <ul>
-            <li>Home</li>
-            <li>About us</li>
-            <li>Contact</li>
+    <div className='flex justify-between items-center'>
+        <img src={TCS} className='w-[130px]'/>
+        <ul className='flex gap-4 md:gap-14'>
+            <li className='hover:font-bold cursor-pointer'>Home</li>
+            <li className='hover:font-bold cursor-pointer'>About us</li>
+            <li className='hover:font-bold cursor-pointer'>Contact</li>
         </ul>
-        <button>Suscribe</button>
+        <button className='bg-red-500 rounded-full text-white flex'>Suscribe<IoLogoYoutube /></button>
     </div>
   )
 }
