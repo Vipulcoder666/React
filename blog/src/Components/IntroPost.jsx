@@ -2,7 +2,9 @@ import React from 'react'
 
 function IntroPost() {
   return (
-    <div>IntroPost</div>
+    <div>
+        
+    </div>
   )
 }
 
