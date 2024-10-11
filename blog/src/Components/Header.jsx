@@ -10,7 +10,7 @@ function Header() {
             <li className='hover:font-bold cursor-pointer'>About us</li>
             <li className='hover:font-bold cursor-pointer'>Contact</li>
         </ul>
-        <button className='bg-red-500 rounded-full text-white flex'>Suscribe<IoLogoYoutube /></button>
+        <button className='bg-red-500 rounded-full text-white flex items-center'>Suscribe<IoLogoYoutube className='m-1 text-[20px]'/></button>
     </div>
   )
 }
