@@ -8,7 +8,7 @@ function Home() {
             <h1 className='text-3xl md:text-6xl font-bold flex leading-normal tracking-tighter'>
                 Hello! I am Vipul
             </h1>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur, nobis!</p>
+            <p><br></br>Building logic into life—one line of code at a time.</p>
             <button className='mt-5 md:mt-10 text-white py-2 px-3 text-sm md:text-lg md:py-2 md:px-4 hover:opacity-85 duration-300 hover:scale-105 font-semibold rounded-3xl bg-[#465697]'>Contact me</button>
         </div>
         <div><img className='w-2/5' src={Avatar} alt="" /></div>
