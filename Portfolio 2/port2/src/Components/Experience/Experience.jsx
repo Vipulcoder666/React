@@ -15,8 +15,8 @@ const techStack = [
 
 const Experience = () => {
   return (
-    <section className="min-h-screen bg-[#1b1e32] text-white flex flex-col items-center justify-center px-6 py-20">
-      <h2 className="text-5xl font-bold mb-14 text-center">Tech Stack</h2>
+    <section id="Experience" className="min-h-screen bg-[#1b1e32] text-white flex flex-col items-center justify-center px-6 py-20">
+      <h2 className="text-5xl font-bold mb-14 text-center">Experience</h2>
       
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-12 w-full max-w-6xl">
         {techStack.map((tech, index) => (
