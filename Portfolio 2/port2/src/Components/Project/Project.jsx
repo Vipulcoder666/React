@@ -4,7 +4,7 @@ import { FaArrowRight } from "react-icons/fa";
 const projects = [
   {
     name: "Personal Portfolio",
-    link: "https://your-portfolio-link.com",
+    link: "https://vipulshriva.vercel.app/",
     desc: "A sleek portfolio showcasing my skills and achievements.",
     tech: ["React", "Tailwind", "Framer Motion"],
   },
