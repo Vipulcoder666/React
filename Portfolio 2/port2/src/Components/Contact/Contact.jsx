@@ -78,7 +78,7 @@ const Contact = () => {
         whileInView={{ opacity: 1 }}
         transition={{ delay: 1.2 }}
       >
-        “I’m always open to connecting. Let’s build something amazing together.”
+        “I’m always open to connect. Let’s build something amazing together.”
       </motion.p>
     </section>
   );
