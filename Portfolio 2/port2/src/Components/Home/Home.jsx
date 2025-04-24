@@ -9,7 +9,7 @@ function Home() {
                 Hello! I am Vipul
             </h1>
             <p><br></br>Building logic into life—one line of code at a time.</p>
-            <button className='mt-5 md:mt-10 text-white py-2 px-3 text-sm md:text-lg md:py-2 md:px-4 hover:opacity-85 duration-300 hover:scale-105 font-semibold rounded-3xl bg-[#465697]'>Contact me</button>
+            <button className='mt-5 md:mt-10 text-white py-2 px-3 text-sm md:text-lg md:py-2 md:px-4 hover:opacity-85 duration-300 hover:scale-105 font-semibold rounded-3xl bg-[#465697]'><a href="https://drive.google.com/file/d/1RJ01nIO23TUA-RwmeSgWJvFqXFE5mSwG/view?usp=drive_link" target="_blank">Resume</a></button>
         </div>
         <div><img className='w-2/5' src={Avatar} alt="" /></div>
     </div>
