@@ -24,7 +24,9 @@ const projects = [
 
 const Projects = () => {
   return (
-    <section className="min-h-screen bg-[#1b1e32] text-white px-4 py-20 flex flex-col items-center">
+    <section
+    id="Project"
+    className="min-h-screen bg-[#1b1e32] text-white px-4 py-20 flex flex-col items-center">
       <h2 className="text-5xl font-bold mb-14 text-center">✨ My Projects</h2>
 
       <div className="grid gap-12 md:grid-cols-2 lg:grid-cols-3 max-w-7xl w-full">

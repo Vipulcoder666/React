@@ -36,7 +36,9 @@ const contactDetails = [
 
 const Contact = () => {
   return (
-    <section className="min-h-screen bg-[#1b1e32] text-white px-6 py-20 flex flex-col items-center">
+    <section
+    id="Contact"
+    className="min-h-screen bg-[#1b1e32] text-white px-6 py-20 flex flex-col items-center">
       {/* Heading with optional icon */}
       <div className="flex items-center gap-3 justify-center text-white text-5xl mb-16">
         <FaRegHandshake className="text-4xl animate-bounce text-white" />

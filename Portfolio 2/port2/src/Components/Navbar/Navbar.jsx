@@ -27,7 +27,7 @@ function Navbar() {
           <a href="#Experience" className="hover:text-red-400">Experience</a>
         </li>
         <li className="py-2 md:py-0">
-          <a href="#Projects" className="hover:text-red-400">Projects</a>
+          <a href="#Project" className="hover:text-red-400">Projects</a>
         </li>
         <li className="py-2 md:py-0">
           <a href="#Contact" className="hover:text-red-400">Contact</a>
